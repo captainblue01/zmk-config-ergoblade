@@ -16,10 +16,10 @@
         }; 
         num_layer {
             bindings = <
-                &none      &none       &kp N7   &kp N8   &kp N9  &kp PLUS                              &none         &HOME         &END        &none   &none   &none
-                &kp GRAVE  &kp ASTRK   &kp N4   &kp N5   &kp N6  &kp RET                               &LEFT         &DOWN         &UP         &RIGHT  &PG_UP  &none
-                &none      &KP_DIVIDE  &kp N1   &kp N2   &kp N3  &kp MINUS                             &none         &none         &none       &none   &PG_DN  &none
-                                       &kp DOT  &kp N0   &none   &bootloader  &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &none
+                &trans      &trans       &kp N7   &kp N8   &kp N9  &kp PLUS                              &trans         &HOME         &END        &trans   &trans   &trans
+                &kp GRAVE  &kp ASTRK   &kp N4   &kp N5   &kp N6  &kp RET                               &LEFT         &DOWN         &UP         &RIGHT  &PG_UP  &trans
+                &trans      &KP_DIVIDE  &kp N1   &kp N2   &kp N3  &kp MINUS                             &trans         &trans         &trans       &trans   &PG_DN  &trans
+                                       &kp DOT  &kp N0   &trans   &bootloader  &trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &trans
             >;
         };
     };
