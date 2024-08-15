@@ -8,17 +8,18 @@
 
         default_layer {
             bindings = <
-                &kp KP_N7     &kp KP_N8     &mo 1
-                &kp KP_N4     &kp KP_N5     &kp KP_N6
-                &kp KP_N1     &kp KP_N2     &kp KP_N3
+                &kp TAB    &kp Q     &kp W     &kp F   &kp P   &kp B                                            &kp J   &kp L   &kp U      &kp Y     &kp SEMI  &kp SQT
+                &kp ESC    &kp A     &kp R     &kp S   &kp T   &kp G                                            &kp M   &kp N   &kp E      &kp I     &kp O     &kp RET
+                &kp LCTL   &kp Z     &kp X     &kp C   &kp D   &kp V                                            &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH  &kp BSLH
+                                     &kp LBRC  &kp RBRC  &mo 1   &kp SPACE   &kp LALT     &kp RALT   &kp BSPC   &kp RSHIFT  &kp MINUS   &kp EQUAL  
             >;
         }; 
-        
-        bt_layer {
+        num_layer {
             bindings = <
-                &none            &bootloader      &none
-                &none            &none            &bt BT_CLR
-                &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2
+                &none     &none      &kp N7   &kp N8   &kp N9   &kp plus                      &none   &HOME   &END    &none   &none   &none   
+                &kp grave &kp ASTRK  &kp N4   &kp N5   &kp N6   &kp RET                       &LEFT   &DOWN   &UP     &RIGHT  &PG_UP  &none   
+                &none     &KP_DIVIDE &kp N1   &kp N2   &kp N3   &kp MINUS                     &none   &none   &none   &none   &PG_DN  &none   
+                                     &kp DOT  &kp N0   &none    &bootloader    &none  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR
             >;
         };
     };
