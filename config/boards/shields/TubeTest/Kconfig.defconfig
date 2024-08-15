@@ -1,6 +1,6 @@
-if SHIELD_TUBETEST
+if SHIELD_ERGOBLADE
             
 config ZMK_KEYBOARD_NAME
-    default "TubeTest"
+    default "ErgoBlade"
 
 endif
