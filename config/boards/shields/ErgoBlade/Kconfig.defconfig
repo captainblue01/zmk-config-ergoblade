@@ -1,6 +1,6 @@
 if SHIELD_ERGOBLADE
             
 config ZMK_KEYBOARD_NAME
-    default "ErgoBlade_2"
+    default "ErgoBlade_5"
 
 endif
