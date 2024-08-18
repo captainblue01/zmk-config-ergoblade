@@ -1,0 +1,6 @@
+if SHIELD_ERGOBLADETEST
+            
+config ZMK_KEYBOARD_NAME
+    default "ErgoBladeTest"
+
+endif
